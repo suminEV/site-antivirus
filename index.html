@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>technoRu - Поиск и лечение вирусов на сайте</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<!-- Custom HTML -->
+
+	<!-- Кнопка Вверх фиксированная -->
+	<a class="go_to_top animated infinite pulse" id="go_to_top" href="#"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+
+	<!-- Потолок -->
+	<div class="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-11 col-md-10 col-lg-5 col-xl-6">
+					<p class="info">
+						<!-- <span><b>technoRu</b> - Магазин Цифровых услуг</span>
+						<span>tRu_shop@mail.ru - <a href="vk.com">Vk</a> <a href="facebook.com">Fb</a> <a href="odnoklassniki.ru">Ok</a></span> -->
+						<span><b>technoRu</b> - tRu_shop@mail.ru - <a href="https://vk.com/public_technoru" target="_blank">Vk</a> <a href="https://www.facebook.com/groups/1973973656240707" target="_blank">Fb</a> <a href="https://ok.ru/group/54671735259205" target="_blank">Ok</a></span>
+						<!-- <a href="#" title="Вконтакте"><img src="img/social/vkontakte.png" alt="Вконтакте"></a>
+						<a href="#" title="Одноклассники"><img src="img/social/odnoklassniki.png" alt="Одноклассники"></a>
+						<a href="#" title="Facebook"><img src="img/social/facebook.png" alt="Facebook"></a>
+						<span>+7 (930) 77-77-777</span> -->
+					</p>
+				</div>
+				<div class="col-sm-1 col-md-2 col-lg-7 col-xl-6">
+					<!-- Десктопная версия меню -->
+					<div class="top-menu">
+						<ul>
+							<li><a class="go_to" href="about-us">О нас</a></li>
+							<li><a class="go_to" href="why-we">Почему мы?</a></li>
+							<li><a class="go_to" href="services">Услуги</a></li>
+							<li><a class="go_to" href="questions">ЧаВО</a></li>
+							<li><a class="go_to" href="web-threats">Веб-угрозы</a></li>
+							<li><a class="go_to" href="reviews">Отзывы</a></li>
+						</ul>
+					</div>
+					<!-- Мобильная версия меню-->
+					<span class="mobyle-button-menu" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></span>
+					<div id="mobyle-menu" class="overlay">
+						<span class="closebtn" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></span>
+						<div class="overlay-content">
+							<a class="go_to" href="about-us">О нас</a>
+							<a class="go_to" href="why-we">Почему мы?</a>
+							<a class="go_to" href="services">Услуги</a>
+							<a class="go_to" href="questions">ЧаВО</a>
+							<a class="go_to" href="web-threats">Веб-угрозы</a>
+							<a class="go_to" href="reviews">Отзывы</a>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Шапка сайта -->
+	<div class="header animated fadeIn">
+		<div class="header-fon">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-lg-7 col-xl-7">
+						<div class="left-block">
+							<div class="info">
+								<!-- <h1 class="animated-left-2 animated">Поиск и лечение вирусов на сайте</h1> -->
+								<h1>Поиск и лечение вирусов на сайте</h1>
+								<h3>Мы позаботимся о безопасности вашего сайта!</h3>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-md-1 col-lg-1 col-xl-1"></div> -->
+					<div class="col-xs-12 col-lg-5 col-xl-5">
+						<div class="right-block">
+							<img src="img/header/virus.png" alt="Изображение злобного вируса">
+							<p id="myBtn1">Оформить заказ</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Блок О нас -->
+	<div class="about-us" id="about-us">
+		<div class="container">
+			<h2 class="about-us-h">О нас</h2>
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-10">
+					<p class="about-us-text">technoRu - это компания, которая занимается изучением безопасности веб-проектов и устранением возникающих угроз. Из основной нашей деятельности можно выделить: поиск вредоносного кода в исходных файлах; изучение поведения сайта в изолированном режиме при разных условиях с использованием заведомо устаревшего и уязвимого программного обеспечения в качестве ловушек и контроля сетевых соединений для обнаружения утечки данных. Мы готовы весь свой накопленный опыт применить для вашей безопасности.</p>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Почему выбирают нас -->
+	<div class="why-we" id="why-we">
+		<div class="container">
+			<h2>Почему выбирают нас</h2>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="wow fadeIn block block-orange" data-wow-duration="0.5s" data-wow-delay="0s" data-wow-offset="200">
+						<i class="fa fa-rub" aria-hidden="true"></i>
+						<h3>Оплата после<br>результата</h3>
+						<p>Заказывая у нас услуги по поиску и лечению вирусов на сайте, вы платите только после получения готового результата.</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="wow fadeIn block block-green" data-wow-duration="0.5s" data-wow-delay="0.2s" data-wow-offset="200">
+						<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+						<h3>Гарантия качества</h3>
+						<p>Гарантией качества выступает наша репутация и возможность перед оплатой услуги проверить готовый результат.</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="wow fadeIn block block-orange" data-wow-duration="0.5s" data-wow-delay="0.4s" data-wow-offset="200">
+						<i class="fa fa-comments" aria-hidden="true"></i>
+						<h3>Бесплатная<br>консультация</h3>
+						<p>Мы готовы бесплатно вас проконсультировать, чтобы в дальнейшем вы могли избежать такой ситуации, когда ваш сайт и его пользователи находятся под угрозой безопасности.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Блок Услуги -->
+	<div class="services" id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-10">
+					<h2>Услуги</h2>
+					<p>Если у вас возникли подозрения что на вашем сайте выполняется вредоносный код или если ваш сайт попал под антивирусные фильтры поисковых систем, а вы в свою очередь дорожите безопасностью своих пользователей и рейтингом сайта, то вы можете обратиться к нам для поиска и устранения опасных скриптов и вирусов.</p>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-5">
+					<div class="block wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+						<div class="section-header">
+							<h3>Поиск вирусов на сайте</h3>
+						</div>
+						<div class="block-content">
+							<p class="info">
+								Если вам необходимо только убедится в том, что на вашем сайте нет вредоносных скриптов, то вы можете заказать услугу "поиск вирусов на сайте", в завершении которого вам будут предоставлен отчет с результатами сканирования по нескольким вирусным базам данных. Если в процессе анализа все-таки были обнаружены вирусы, то вы можете изменить заказ на "поиск и лечение вирусов на сайте" при этом общая стоимость заказа будет не суммироваться, а просто увеличится в большую сторону.
+							</p>
+							<p class="price"><span class="number">1000</span> <span class="rub">руб.</span></p>
+						</div>
+						<button id="myBtn2">Оформить заказ</button>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="block wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+						<div class="section-header">
+							<h3>Поиск и лечение вирусов на сайте</h3>
+						</div>
+						<div class="block-content">
+							<p class="info">
+								Данную услугу вы можете заказать если на вашем сайте есть очевидная вирусная активность или если ваш сайт попал под антивирусные санкции поисковых систем. В этом случае вам необходимо будет связатся с нами для устранения возникшей угрозы и повторной отправки сайта на индексацию в поисковые системы.
+							</p>
+							<p class="price"><span class="number">3000</span> <span class="rub">руб.</span></p>
+						</div>
+						<button id="myBtn3">Оформить заказ</button>
+					</div>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Разделитель -->
+	<div class="delimiter">
+		<h3>technoRu - Поиск и лечение вирусов на сайте</h3>
+	</div>
+
+	<!-- ЧаВО -->
+	<div class="questions" id="questions">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-10">
+					<h2>ЧаВО</h2>
+					<p class="description">Часто задаваемые вопросы и ответы</p>
+					<div class="question-1">
+						<h3>Как понять, что на сайте есть вирусы?</h3>
+						<p>Беглым взглядом определить наличие вируса на сайте довольно трудно, так как их основная цель это скрытая деятельность. Однако бывают и исключения. Вот те моменты, на которые в первую очередь нужно обратить ваше внимание, некоторые из них очевидные, некоторые не очень. Предупреждение антивирусной программы самый яркий признак вирусной угрозы. Далее следует блокировка сайта в браузере или поисковой системе как подозрительного. Увеличение времени загрузки сайта. Резкое увеличение количества страниц в индексе. Появление неизвестных ссылок на внешние ресурсы, новых кнопок, баннеров и тд. При появлении этих признаков сайту необходимо уделить внимание и заняться его проверкой и лечением, так как их игнорирование может привести к непредсказуемым последствиям.</p>
+					</div>
+					<div class="question-2">
+						<h3>Как мне заказать необходимую услугу?</h3>
+						<p>Чтобы заказать любую из доступных услуг вам необходимо связатся с нами любым из предоставленных способов и описать суть проблемы как можно более подробно.</p>
+						<p>
+							Способы связи с нами:<br>
+							Почта: tRu_shop@mail.ru<br>
+							Социальные сети: <a href="https://vk.com/public_technoru" target="_blank">Vk</a> <a href="https://www.facebook.com/groups/1973973656240707" target="_blank">Fb</a> <a href="https://ok.ru/group/54671735259205" target="_blank">Ok</a><br>
+							Чат-онлайн. Слева в углу.
+						</p>
+					</div>
+					<div class="question-3">
+						<h3>Что от меня потребуется для поиск и лечения вирусов на моем сайте?</h3>
+						<p>
+							Для поиска и лечения вирусов на сайте потребуется:<br>
+							1) Логин и пароль от административной панели вашего сайта.<br>
+							2) Логин и пароль от хостинга или хостинг панели.<br>
+							3) FTP доступ к вашим файлам на сервере.<br>
+						</p>
+						<p>После успешной процедуры лечения вашего сайта от вредоносных скриптов, вам необходимо будет поменять все пароли для доступа к сайту, к его файлам, к базе данных и тд.</p>
+					</div>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Основные Веб-угрозы -->
+	<div class="web-threats" id="web-threats">
+		<div class="container">
+			<h2>Основные Веб-угрозы</h2>
+			<p class="description">Которые могут привести сайт к заражению или его неработоспособности</p>
+			<div class="block-relative">
+				<div class="row">
+					<div class="col-1 col-lg-1"></div>
+
+					<div class="col-10 col-lg-10">
+						<div class="slider-web-threats">
+				    	<div class="slide">
+				    		<h3>Переполнение буфера</h3>
+								<p>Позволяет с помощью перезаписи данных в памяти системы, поменять путь исполнения программы. Данная уязвимость является наиболее распространенной в программном обеспечении.</p>
+								<hr>
+				    	</div>
+					    <div class="slide">
+					    	<h3>Подмена содержимого</h3>
+								<p>В этом случае происходит подмена страниц и пользователь думает, что страницы созданы Web-сервером.</p>
+								<hr>
+					    </div>
+					    <div class="slide">
+					    	<h3>SQL-инъекции</h3>
+								<p>Инъекция SQL-кода. С помощью SQL-запросов хакер может сделать дамп базы данных или внести в нее изменения. Сами запросы обычно передаются с помощью форм на сайте.</p>
+								<hr>
+					    </div>
+					    <div class="slide">
+				    		<h3>Переполнение буфера</h3>
+								<p>Позволяет с помощью перезаписи данных в памяти системы, поменять путь исполнения программы. Данная уязвимость является наиболее распространенной в программном обеспечении.</p>
+								<hr>
+				    	</div>
+					    <div class="slide">
+					    	<h3>Подмена содержимого</h3>
+								<p>В этом случае происходит подмена страниц и пользователь думает, что страницы созданы Web-сервером.</p>
+								<hr>
+					    </div>
+					    <div class="slide">
+					    	<h3>SQL-инъекции</h3>
+								<p>Инъекция SQL-кода. С помощью SQL-запросов хакер может сделать дамп базы данных или внести в нее изменения. Сами запросы обычно передаются с помощью форм на сайте.</p>
+								<hr>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="col-1 col-lg-1"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Отзывы -->
+	<div class="reviews" id="reviews">
+		<div class="container">
+			<h2>Отзывы</h2>
+
+			<div class="review">
+				<div class="row">
+					<div class="col-lg-2">
+						<img src="img/avatar/1.png" alt="Аватарка" class="avatar">
+					</div>
+					<div class="col-lg-10">
+						<div class="content-review">
+							<h3>Нашли и вылечили рекламный вирус с моего сайта!</h3>
+							<p>
+								В один прекрасный момент на страницах блога, который я веду, стала появляться без моего разрешения реклама. Порой даже запрещенного характера (баннеры с рекламой казино или торрент-порталов). В тоже время пользователи стали писать гневные письма и комментарии, что временами их переадресовывает на посторонние сайты. Самому решить проблему у меня не получилось и я решил обратиться в компании technoRu. В итоге проблему решили успешно, все работает хорошо, жалоб нет. Еще раз хотел бы сказать большое спасибо за решение моей проблемы.
+							</p>
+							<span class="profession">Андрей, блогер</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="review">
+				<div class="row">
+					<div class="col-lg-2">
+						<img src="img/avatar/2.png" alt="Аватарка" class="avatar">
+					</div>
+					<div class="col-lg-10">
+						<div class="content-review">
+							<h3>Вылечили вирусы на сайте и помогли вывести его из-под санкций Яндекса!</h3>
+							<p>Началось все с того, что из-за вирусов один наш проект попал под санкции Яндекса. Как только это было замечено, мы сразу стали искать выход и по совету наших коллег обратились в эту компанию за помощью! Которая была нам оказана в тот же день, за что ребятам из компании от нас всех огромное спасибо! Будем при необходимости обращаться еще.</p>
+							<span class="profession">Илья, специалист по маркетингу</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Подвал -->
+	<div class="footer">
+		<div class="container">
+			<p class="logo">technoRu</p>
+			<p>tRu_shop@mail.ru - <a href="https://vk.com/public_technoru" target="_blank">Vk</a> <a href="https://www.facebook.com/groups/1973973656240707" target="_blank">Fb</a> <a href="https://ok.ru/group/54671735259205" target="_blank">Ok</a></p>
+			<p>Поиск и лечение вирусов на сайте | 2018</p>
+		</div>
+	</div>
+
+	<!-- Модальное окно -->
+	<div id="myModal" class="modal">
+	  <!-- Содержимое модального окна -->
+	  <!-- <div class="container"> -->
+		  <div class="modal-content">
+				<span class="close fa fa-times" aria-hidden="true"></span>
+				<h1>Оформление заказа</h1>
+				<div class="info">
+						<p>Для связи с нами и для оформления заказа вы можете воспользоваться тремя способами.</p>
+						<p><b>1 способ.</b> Напишите нам сообщение в одну из групп в социальных сетях по ссылкам расположенным ниже описав суть возникшей проблемы как можно подробнее.</p>
+						<p class="icons">
+							<a href="https://vk.com/public_technoru" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+							<a href="https://ok.ru/group/54671735259205" target="_blank"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+							<a href="https://www.facebook.com/groups/1973973656240707" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						</p>
+						<p><b>2 Способ.</b> Напишите нам в чат-онлайн</p>
+						<p><b>3 способ.</b> Также вы можете воспользоваться для связи с нами этим почтовым ящиком - <span class="email">tRu_shop@mail.ru</span>. Для удобства можете заполнить форму расположенную ниже.</p>
+						<form action="https://formspree.io/manager.technog@gmail.com" method="POST">
+							<input type="text" name="name" placeholder="Введите ваше имя" required><br>
+							<!-- <input type="text" name="phone" placeholder="Введите номер телефон" required><br> -->
+							<input type="email" name="email" placeholder="Укажите E-mail" required><br>
+							<textarea name="message" placeholder="Напишите нам сообщение" required></textarea><br>
+							<div class="button-right">
+								<button type="submit">Отправить</button>
+							</div>
+						</form>
+				</div>
+			</div>
+		<!-- </div> -->
+	</div>
+
+	<!-- Кнопка вверх
+	<a class="go_to_top" href="#"><i class="fa fa-mouse-pointer" aria-hidden="true"></i></a>-->
+
+	<script src="js/scripts.min.js"></script>
+
+	<!-- BEGIN JIVOSITE CODE {literal} -->
+	<script type='text/javascript'>
+		(function(){ var widget_id = 'tbSUW32jwi';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+	</script>
+	<!-- {/literal} END JIVOSITE CODE -->
+
+</body>
+</html>

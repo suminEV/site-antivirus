@@ -1,0 +1,182 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+
+//Extra large: ≥1200px
++media-breakpoint-down(xl)
+
+//Large: ≥992px
++media-breakpoint-down(lg)
+	.header
+		.right-block
+			margin-top: 122px
+	
+	.top
+		padding-top: 2px
+		padding-bottom: 2px
+		.info
+			margin-top: 5px
+			margin-bottom: 5px
+			a
+				img
+					display: none
+	
+	.about-us
+		.container
+			background-position: 90% 70%
+
+	.web-threats
+		.container
+			.arrow-left,
+			.arrow-right
+				bottom: 120px
+
+	.services
+		.block
+			.block-content
+				.info
+					min-height: 430px
+
+//Medium: ≥768px
++media-breakpoint-down(md)
+	.top-menu
+		display: none
+
+	.mobyle-button-menu
+		float: right
+		padding-left: 20px
+		i
+			padding: 20px 0
+
+	.header
+		height: 450px
+		margin-top: 0
+		.right-block
+			img
+				display: none
+		.left-block
+			.info
+				position: relative
+				bottom: 0
+				top: 90px
+				padding-right: 0
+				h1
+					width: 100%
+
+	.top
+		.info
+			a
+				img
+					display: inline-block
+					margin-top: 0
+					margin-bottom: 0
+
+	.modal
+		padding-top: 0
+		.modal-content
+			width: 100%
+			height: auto
+			margin-bottom: 0
+
+	.services
+		.block
+			.block-content
+				.info
+					min-height: auto
+
+	.why-we
+		.container
+			.block
+				h3
+					height: auto
+
+	.animated
+		transition-property: none !important
+		transform: none !important
+		animation: none !important
+
+	.web-threats
+		.container
+			.arrow-left,
+			.arrow-right
+				bottom: 110px
+
+
+
+//Small: ≥576px
++media-breakpoint-down(sm)
+	.header
+		margin-top: 0
+	.modal
+		.modal-content
+			.info
+				form
+					width: auto
+					textarea
+						width: 100%
+
+	.mobyle-button-menu
+		padding-left: 0
+		float: right
+
+//Extra small: >0
++media-breakpoint-down(xs)
+	.top
+		.info
+			margin: 0
+			padding: 5px
+			.email,
+			span
+				display: block
+				text-align: center
+			a
+				img
+					display: none
+		.mobyle-button-menu
+			display: block
+			text-align: center
+			width: 100%
+			i
+				padding: 0
+
+	.header
+		margin-top: 0
+		height: auto
+		.left-block
+			padding-top: 15px
+
+	.web-threats
+		.container
+			.arrow-left
+				left: -30px
+			.arrow-right
+				right: -30px
+
+	.modal
+		.modal-content
+			.info
+				form
+					input
+						width: 80%
+
+
+/*==========  Mobile First  ==========*/
+
+//Extra small: <576px
++media-breakpoint-up(xs)
+
+//Small: ≤576px
++media-breakpoint-up(sm)
+
+//Medium: ≤768px
++media-breakpoint-up(md)
+
+//Large: ≤992px
++media-breakpoint-up(lg)
+	.mobyle-button-menu
+		display: none
+
+//Extra large: ≤1200px
++media-breakpoint-up(xl)
